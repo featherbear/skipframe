@@ -5,7 +5,11 @@ description = ""
 authors = [
     {name = "Andrew Wong", email = "andrew.j.wong@outlook.com"},
 ]
-dependencies = []
+dependencies = [
+    "ffmpeg-python>=0.2.0",
+    "numpy>=1.22.3",
+    "pytesseract>=0.3.9",
+]
 requires-python = ">=3.8"
 license = {text = "MIT"}
 
